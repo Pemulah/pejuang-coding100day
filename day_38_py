@@ -1,0 +1,3 @@
+grup_smp = {'andi', 'budi', 'indah', 'sari'}
+grup_sma = {'putri', 'ratna', 'jumra', 'agus'}
+print(grup_sma | grup_smp)
