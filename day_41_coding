@@ -1,0 +1,8 @@
+grup_nisra = {'andi', 'budi', 'ratna', 'sari'}
+grup_zegra= {'putri', 'ratna', 'andi', 'agus'}
+print('\nanggota grup nisra yang bukan anggota grup zegra')
+print(grup_nisra - grup_zegra)
+print(grup_nisra.difference(grup_zegra))
+print('\ndibalik, anggota grup zegra yang bukan anggota grup nisra:')
+print(grup_zegra - grup_nisra)
+print(grup_zegra.difference(grup_nisra))
